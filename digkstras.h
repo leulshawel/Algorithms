@@ -58,5 +58,5 @@ void shortest(struct Node* startingNode, struct Node* dest){
         currentNode = startingNode->nodes[i];
         if (currentNode != NULL && currentNode != dest) shortest(currentNode, dest);
     }
-   
+   //this doesnt return the shortest dist bur sets the mydist field of the destination node to it
 }
