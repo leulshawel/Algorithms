@@ -37,7 +37,7 @@ int main(){
     //find shortest path. this doesnt return anything but sets the destination node's 
     //mydist value as to the shortest distance from the startingNode 
     shortest(&asebe, &addis);
-    printf("%d  ", addis.mydist);
+    printf("%d\n", addis.mydist);
     return 0;
 }
 
